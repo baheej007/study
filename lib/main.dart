@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'get.dart';
+import 'custom_anim.dart';
 
 void main() {
   runApp(const MyApp());
