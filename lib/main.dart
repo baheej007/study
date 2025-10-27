@@ -24,10 +24,11 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Customized
-         Paint"),
-        backgroundColor: Colors.amberAccent,
-      ),
+  title: const Text("Customized Paint"),
+  backgroundColor: Colors.amberAccent,
+),
+
+      
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
