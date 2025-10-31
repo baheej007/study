@@ -8,7 +8,7 @@ class ThirdPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Hero Animation"),
+        title: const Text("Hero "),
         backgroundColor: Colors.amberAccent,
       ),
       body: Center(
