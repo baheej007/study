@@ -10,23 +10,23 @@ class FourthPage extends StatefulWidget {
 class _FourthPageState extends State<FourthPage> {
   List<Map<String, String>> users = [
     {
-      'name': 'John Doe',
+      'name': 'John',
       'image': 'https://randomuser.me/api/portraits/men/32.jpg'
     },
     {
-      'name': 'Emma Watson',
+      'name': 'Watson',
       'image': 'https://randomuser.me/api/portraits/women/44.jpg'
     },
     {
-      'name': 'Chris Evans',
+      'name': 'Chris',
       'image': 'https://randomuser.me/api/portraits/men/15.jpg'
     },
     {
-      'name': 'Scarlett Johansson',
+      'name': 'Mathew',
       'image': 'https://randomuser.me/api/portraits/women/55.jpg'
     },
     {
-      'name': 'Tom Holland',
+      'name': 'Tom',
       'image': 'https://randomuser.me/api/portraits/men/28.jpg'
     },
   ];

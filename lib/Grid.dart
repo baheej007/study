@@ -41,7 +41,7 @@ class FifthPage extends StatelessWidget {
         padding: const EdgeInsets.all(10.0),
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, // 2 items per row
+            crossAxisCount: 2,
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
             childAspectRatio: 0.9,
