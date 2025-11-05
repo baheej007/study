@@ -13,7 +13,7 @@ class FifthPage extends StatelessWidget {
       'image': 'https://images.unsplash.com/photo-1508057198894-247b23fe5ade'
     },
     {
-      'name': 'Beach',
+      'name': 'Beach summer ',
       'image': 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e'
     },
     {
@@ -21,7 +21,7 @@ class FifthPage extends StatelessWidget {
       'image': 'https://images.unsplash.com/photo-1501785888041-af3ef285b470'
     },
     {
-      'name': 'Forest',
+      'name': 'green Forest',
       'image': 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e'
     },
     {
