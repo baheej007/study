@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:study/ThirdPage.dart';
 import 'custom_anim.dart';
 
 void main() {
@@ -24,9 +25,46 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-  title: const Text("Customized Paint"),
+        flexibleSpace: Image(
+    image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSHxhkjrPiUJPHjsB0kuD5pOSejARhOwDtzA&s'),
+    fit: BoxFit.cover,
+  ),
+        
+  title: const Text("App Bar"),
+  elevation: 5,
+  shadowColor: const Color.fromARGB(255, 25, 255, 4),
   backgroundColor: Colors.amberAccent,
-),
+  shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.horizontal(
+        left: Radius.circular(18),
+        right: Radius.circular(18),
+      ),
+    ),
+    actions: [
+      IconButton(
+        icon: Icon(Icons.notifications),
+        onPressed: () {
+          Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const ThirdPage(),
+                  ),
+                );
+        },
+      ),
+      IconButton(
+        icon: Icon(Icons.settings),
+        onPressed: () {
+          Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const SecondPage(),
+                  ),
+                );
+        },
+      ),
+    ],
+  ),
 
       
       body: Center(
@@ -84,3 +122,4 @@ class MasterPainter extends CustomPainter {
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
+
