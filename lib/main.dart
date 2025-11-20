@@ -74,7 +74,7 @@ class FirstPage extends StatelessWidget {
           child: Container(width: double.infinity,
             padding: EdgeInsets.symmetric(vertical: 3, horizontal: 10),
             color: const Color.fromARGB(255, 3, 123, 7),
-            child: Text("Profiles",style:TextStyle(color: const Color.fromARGB(255, 255, 255, 255)),),
+            child: Text("Profile",style:TextStyle(color: const Color.fromARGB(255, 255, 255, 255)),),
           ),
         ),
       ),
